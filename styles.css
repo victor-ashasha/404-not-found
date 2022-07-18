@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+:root{
+    --color: #333333;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    font-family: 'Space Mono', monospace;
+}
+header h1{
+    font-family: 'Inconsolata', monospace;
+    padding: 0 2rem;
+    font-size: 1.5rem;
+    
+}
+article{
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto 1fr;
+}
+img{
+    width: 100%;
+    max-width: 439.22px;
+    height: auto;
+    padding: 2rem;
+   
+}
+.content{
+   padding: 3rem 1rem;
+}
+
+.content > h2{
+    font-size: 3rem;
+    line-height: 1.1;
+    margin-top: 0;
+}
+
+a button{
+    margin-top: 1.8rem;
+    background-color: #333333;
+    padding: 1.2rem;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    font-size: .8rem;
+    color: #bdbdbd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (min-width: 900px) {
+    article{
+        display: flex;
+    }
+    img{
+        width: 100%;
+        max-width: 539.22px;
+        height: auto;
+        padding: 3rem;
+    }
+    .content{
+       padding: 3rem;
+    }
+}
+
+
