@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-:root{
-    --color: #333333;
-}
 *{
     box-sizing: border-box;
 }
@@ -24,9 +21,9 @@ article{
 }
 img{
     width: 100%;
-    max-width: 439.22px;
+    max-width: 339.22px;
     height: auto;
-    padding: 2rem;
+    padding-top: 2rem;
    
 }
 .content{
@@ -34,7 +31,7 @@ img{
 }
 
 .content > h2{
-    font-size: 3rem;
+    font-size: 2.8rem;
     line-height: 1.1;
     margin-top: 0;
 }
